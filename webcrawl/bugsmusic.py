@@ -3,12 +3,10 @@ from urllib.request import urlopen
 
 class BugsCrawler :
     def __init__(self, url) :
-        print('aaaaaaaaaaaa')
         self.url = url
 
 
     def scap(self):
-        print('bbbbbbb')
         soap = BeautifulSoup(urlopen(self.url), "html.parser")
         n_artist = 0
         n_title = 0

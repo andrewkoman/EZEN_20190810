@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="065afda0-231a-4ea7-9fd0-5b9012f7bb7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webcrawl/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webcrawl/assembly.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webcrawl/bugsmusic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webcrawl/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webcrawl/data/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webcrawl/data/chromedriver_76.0.3809.68.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webcrawl/krx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webcrawl/naver_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webcrawl/naver_movie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webcrawl/naver_stock.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webcrawl/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webcrawl/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webcrawl/assembly.py" beforeDir="false" afterPath="$PROJECT_DIR$/webcrawl/assembly.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webcrawl/bugsmusic.py" beforeDir="false" afterPath="$PROJECT_DIR$/webcrawl/bugsmusic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webcrawl/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/webcrawl/controller.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +40,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Temp\pyCham\TF\20190803\webcrawl\data" />
       <recent name="C:\Temp\pyCham\TF\20190803\bufgmusic\20190810" />
     </key>
   </component>
@@ -92,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="__init__ (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="__init__ (3)" type="PythonConfigurationType" factoryName="Python">
       <module name="20190803" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="controller" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190803" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,11 +149,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webcrawl" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webcrawl/controller.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +164,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.__init__ (3)" />
+        <item itemvalue="Python.controller" />
         <item itemvalue="Python.__init__ (2)" />
         <item itemvalue="Python.__init__ (1)" />
         <item itemvalue="Python.__init__" />
-        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>

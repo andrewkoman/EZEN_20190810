@@ -3,7 +3,7 @@ import urllib.request as url
 
 class AssemblyCrawler :
     def __init__(self, param):
-        self.url = param
+        self.param = param
 
     def scrap(self):
         html =  url.urlopen(self.param).read()
