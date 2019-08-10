@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="065afda0-231a-4ea7-9fd0-5b9012f7bb7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webcrawl/data/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webcrawl/data/chromedriver_76.0.3809.68.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webcrawl/krx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webcrawl/naver_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webcrawl/naver_movie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webcrawl/naver_stock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Text_Mining/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Text_Mining/control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Text_Mining/data/kr-Report_2018.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Text_Mining/data/stopwords.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Text_Mining/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webcrawl/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webcrawl/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webcrawl/assembly.py" beforeDir="false" afterPath="$PROJECT_DIR$/webcrawl/assembly.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webcrawl/bugsmusic.py" beforeDir="false" afterPath="$PROJECT_DIR$/webcrawl/bugsmusic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webcrawl/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/webcrawl/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webcrawl/naver_movie.py" beforeDir="false" afterPath="$PROJECT_DIR$/webcrawl/naver_movie.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +36,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Temp\pyCham\TF\20190803\Text_Mining\data" />
       <recent name="C:\Temp\pyCham\TF\20190803\webcrawl\data" />
       <recent name="C:\Temp\pyCham\TF\20190803\bufgmusic\20190810" />
     </key>
