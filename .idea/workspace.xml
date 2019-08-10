@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="065afda0-231a-4ea7-9fd0-5b9012f7bb7b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Text_Mining/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Text_Mining/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Text_Mining/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Text_Mining/model.py" afterDir="false" />
     </list>

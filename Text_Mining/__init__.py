@@ -8,3 +8,6 @@ if __name__ == '__main__':
    sam = SamsungReport()
    #sam.download()
    print(sam.extract_noun())
+   stop=sam.remove_stopword()
+   print('++++++++++++++++++++')
+   print(stop)

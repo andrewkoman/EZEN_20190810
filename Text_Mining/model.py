@@ -56,3 +56,18 @@ class SamsungReport :
     def download():
         nltk.download()
 
+    # 필요 없는(분석 가치 없는) 단어 제거
+    @staticmethod
+    def remove_stopword():
+
+        stop_file = "C:/Temp/pyCham/TF/20190803/Text_Mining/data/stopwords.txt"
+
+        with open( stop_file, 'r', encoding='utf-8') as f:
+            stopwords = f.read()
+
+        stopwords = stopwords.split(' ')
+        print('--------제거 문자----------------')
+        print("stopwords = " + stopwords[:10])
+
+        return stopwords
+
