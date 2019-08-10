@@ -5,6 +5,10 @@ from nltk.tokenize import word_tokenize
 import re
 
 import nltk
+import pandas as pd
+from nltk import FreqDist
+from wordcloud import WordCloud
+import matplotlib.pylab as plt
 
 class SamsungReport :
     def __init__(self):
@@ -51,6 +55,8 @@ class SamsungReport :
         print('==============추출된 명사======================')
         print(texts[:300])
 
+        return texts
+
     # nltk 다운로드
     @staticmethod
     def download():
@@ -58,7 +64,7 @@ class SamsungReport :
 
     # 필요 없는(분석 가치 없는) 단어 제거
     @staticmethod
-    def remove_stopword():
+    def read_stopword():
 
         stop_file = "C:/Temp/pyCham/TF/20190803/Text_Mining/data/stopwords.txt"
 
@@ -67,7 +73,33 @@ class SamsungReport :
 
         stopwords = stopwords.split(' ')
         print('--------제거 문자----------------')
-        print("stopwords = " + stopwords[:10])
+        print(stopwords[:10])
 
         return stopwords
 
+    def remove_stopword(self):
+        texts = self.extract_noun()
+        tokens = self.change_token(texts)
+        stopwords = self.read_stopword()
+        texts = [text for text in tokens if text not in stopwords]
+
+        return texts
+
+
+    def find_feqency(self):
+        texts = self.remove_stopword()
+        freqtxt = pd.Series( dict(FreqDist(texts))).sort_values(ascending=False)
+        print(freqtxt[:30])
+
+        return freqtxt
+
+    def draw_wordcloud(self):
+        #texts = self.find_feqency()
+        texts = self.remove_stopword()
+
+        wcloud = WordCloud('C:/Temp/pyCham/TF/20190803/Text_Mining/data/D2Coding.ttf', relative_scaling=0.2, background_color='white').generate(" ".join(texts))
+
+        plt.figure(figsize=(12,12))
+        plt.imshow(wcloud, interpolation='bilinear')
+        plt.axis('off')
+        plt.show()
